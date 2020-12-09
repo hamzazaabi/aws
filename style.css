@@ -1,0 +1,90 @@
+body {
+  background-color: salmon;
+  font-family: cursive, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  color: white;
+  margin-top: 60px;
+
+}
+
+div {
+  background-color: white;
+  width:100%;
+}
+ul {
+  display: inline-table;
+  background-color: #ebf0f1;
+  width: 20%;
+  height: 200px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 0;
+
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+h3 {
+    font-size: 14px;
+}
+
+li {
+  font-size: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.titreList {
+  list-style-type: none;
+}
+
+.liFoncer {
+  background-color: #d2d2d2;
+}
+
+img {
+  width: 15px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+ul {
+  width: 39%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  ul {
+    display: block;
+    width: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  ul {
+    display: block;
+    width: auto;
+  }
+}
